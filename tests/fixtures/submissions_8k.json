@@ -1,0 +1,32 @@
+{
+  "cik": "0000320193",
+  "name": "Apple Inc.",
+  "tickers": ["AAPL"],
+  "filings": {
+    "recent": {
+      "accessionNumber": [
+        "0000320193-24-000999"
+      ],
+      "filingDate": [
+        "2024-11-05"
+      ],
+      "reportDate": [
+        "2024-11-05"
+      ],
+      "acceptanceDateTime": [
+        "2024-11-05T16:00:00.000Z"
+      ],
+      "act": ["34"],
+      "form": ["8-K"],
+      "fileNumber": ["001-36743"],
+      "filmNumber": ["241500000"],
+      "items": ["Item 5.02 Departure of Directors or Certain Officers"],
+      "size": [54321],
+      "isXBRL": [1],
+      "isInlineXBRL": [1],
+      "primaryDocument": ["aapl-20241105.htm"],
+      "primaryDocDescription": ["FORM 8-K"]
+    }
+  }
+}
+
