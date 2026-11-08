@@ -61,13 +61,14 @@ flowchart TD
         Archives["sec.gov/Archives/edgar/data/..."]
     end
 
-    Clients -->|MCP Protocol| Auth --> Router
+    Clients -->|"MCP Protocol"| Auth
+    Auth --> Router
     Router --> Services
     Services --> EdgarLayer
-    EdgarLayer -->|HTTPS (Rate Limited)| SEC
+    EdgarLayer -->|"HTTPS Rate Limited"| SEC
     Scheduler --> Services
     Scheduler --> Telegram
-    Telegram -->|Telegram Bot API| UserChat["Telegram Channel / DMs"]
+    Telegram -->|"Telegram Bot API"| UserChat["Telegram Channel / DMs"]
 ```
 
 ---
